@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="AutreLigne" xml:space="preserve"><value>#988F86</value></data>
+  <data name="BaliseDisable" xml:space="preserve"><value>Red</value></data>
+  <data name="PropertyWindow" xml:space="preserve"><value>#3E3D40</value></data>
+  <data name="PropertyBoutonFore" xml:space="preserve"><value>#505050</value></data>
+  <data name="PropertyBoutonBack" xml:space="preserve"><value>#A0A0A0</value></data>
+  <data name="GraphTitre" xml:space="preserve"><value>#988F86</value></data>
+  <data name="Echelle" xml:space="preserve"><value>Transparent</value></data>
+  <data name="PropertyWindowText" xml:space="preserve"><value>#C7C2BA</value></data>
+  <data name="ContextMenuItem" xml:space="preserve"><value>#E0DED8</value></data>
+  <data name="Noeud" xml:space="preserve"><value>#6E267B</value></data>
+  <data name="Joint" xml:space="preserve"><value>Black</value></data>
+  <data name="Jonction" xml:space="preserve"><value>#988F86</value></data>
+  <data name="CDV1700" xml:space="preserve"><value>Red</value></data>
+  <data name="CDV2600" xml:space="preserve"><value>#3E3D40</value></data>
+  <data name="CDV2000" xml:space="preserve"><value>#7AB800</value></data>
+  <data name="CDV2300" xml:space="preserve"><value>#0088CE</value></data>
+  <data name="PanelToolStrip" xml:space="preserve"><value>#F0EDE8</value></data>
+  <data name="MainFormBottom" xml:space="preserve"><value>White</value></data>
+  <data name="FormBack" xml:space="preserve"><value>#F0EDE8</value></data>
+  <data name="FormMenu" xml:space="preserve"><value>#F0EDE8</value></data>
+  <data name="ContextMenuTitre" xml:space="preserve"><value>#C7C2BA</value></data>
+  <data name="BaliseEnable" xml:space="preserve"><value>Green</value></data>
+  <data name="FormTopMenu" xml:space="preserve"><value>#EBE8E3</value></data>
+  <data name="MainFormTop" xml:space="preserve"><value>#F0EDE8</value></data>
+  <data name="LegendeBack" xml:space="preserve"><value>#F6F6F6</value></data>
+  <data name="CDV0" xml:space="preserve"><value>#E05206</value></data>
+  <data name="CDV3" xml:space="preserve"><value>#CB0044</value></data>
+  <data name="Voie" xml:space="preserve"><value>DarkGray</value></data>
+  </root>
