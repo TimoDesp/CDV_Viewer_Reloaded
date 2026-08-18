@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<XMLSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tables>
+    <XMLTable Nom="Lignes" Path="topo\lignes.csv">
+      <Columns>
+        <XMLColumn Nom="NOM" Type="System.String" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="Voies" Path="topo\voies.csv">
+      <Columns>
+        <XMLColumn Nom="LIGNE" Type="System.Int32" />
+		    <XMLColumn Nom="NOM" Type="System.String" />
+		    <XMLColumn Nom="PKD" Type="System.Int32" />
+		    <XMLColumn Nom="PKF" Type="System.Int32" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="PositionsVoies" Path="topo\pos_voies.csv">
+      <Columns>
+        <XMLColumn Nom="VOIE" Type="System.Int32" />
+		    <XMLColumn Nom="POSITION" Type="System.Int32" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="VoiesTimon" Path="topo\voies_timon.csv">
+      <Columns>
+        <XMLColumn Nom="TIMON" Type="System.Int32" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="Branches" Path="topo\branches.csv">
+      <Columns>
+        <XMLColumn Nom="NOEUD" Type="System.Int32" />
+        <XMLColumn Nom="VOIE" Type="System.Int32" />
+        <XMLColumn Nom="PK" Type="System.Int32" />
+        <XMLColumn Nom="TYPE" Type="System.String" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="Balises" Path="topo\balises.csv">
+      <Columns>
+        <XMLColumn Nom="VOIE" Type="System.Int32" />
+        <XMLColumn Nom="PK" Type="System.Int32" />
+		    <XMLColumn Nom="ACTIF" Type="System.Boolean" />
+        <XMLColumn Nom="TYPE" Type="System.String" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="Circuits" Path="signalo\circuits.csv">
+      <Columns>
+        <XMLColumn Nom="NOM" Type="System.String" />
+		    <XMLColumn Nom="TYPE" Type="System.String" />
+		    <XMLColumn Nom="FREQUENCE" Type="System.Int32" />
+		    <XMLColumn Nom="COMPENSATION" Type="System.String" />
+		    <XMLColumn Nom="POINTS" Type="System.Int32" />
+		    <XMLColumn Nom="PAS_REEL" Type="System.Double" />
+		    <XMLColumn Nom="ICC_MIN" Type="System.Double" />
+        <XMLColumn Nom="N_FUITE_LONG_ARR" Type="System.Double" />
+        <XMLColumn Nom="CALCUL_CONFORME" Type="System.Double" />
+		    <XMLColumn Nom="I_FUITE_MAX" Type="System.Double" />
+		    <XMLColumn Nom="DIAPHONIE_MAX" Type="System.Double" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="Joints" Path="signalo\joints.csv">
+      <Columns>
+        <XMLColumn Nom="VOIE" Type="System.Int32" />
+		    <XMLColumn Nom="PK" Type="System.Int32" />
+		    <XMLColumn Nom="TYPE" Type="System.String" />
+		    <XMLColumn Nom="DEMI_LONGUEUR" Type="System.Double" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="JointsCircuits" Path="signalo\joints_circuits.csv">
+      <Columns>
+        <XMLColumn Nom="JOINT" Type="System.Int32" />
+		    <XMLColumn Nom="CIRCUIT" Type="System.Int32" />
+		    <XMLColumn Nom="PRINCIPAL" Type="System.Boolean" />
+		    <XMLColumn Nom="DB" Type="System.Boolean" />
+		    <XMLColumn Nom="EMETTEUR" Type="System.Boolean" />
+		    <XMLColumn Nom="DEMI_PAS" Type="System.Double" />
+      </Columns>
+    </XMLTable>
+	
+	<XMLTable Nom="Modeles" Path="signalo\modeles.csv">
+      <Columns>
+		    <XMLColumn Nom="CIRCUIT" Type="System.Int32" />
+		    <XMLColumn Nom="JOINT_E" Type="System.Int32" />
+		    <XMLColumn Nom="JOINT_S" Type="System.Int32" />
+		    <XMLColumn Nom="TOURNEE" Type="System.String" />
+		    <XMLColumn Nom="POINTS" Type="System.String" />
+        <XMLColumn Nom="STAMP" Type="System.String" />
+      </Columns>
+    </XMLTable>
+  </Tables>
+</XMLSchema>

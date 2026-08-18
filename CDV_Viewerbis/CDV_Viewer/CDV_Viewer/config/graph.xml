@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<cGraphique xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ZoomMin>50</ZoomMin>
+  <ZoomMax>1</ZoomMax>
+  <NbVoies>13</NbVoies>
+  <EchelleX>10000</EchelleX>
+  <FontSize>7</FontSize>
+  <Margin>500</Margin>
+  <LongueurVoieSecondaire>150</LongueurVoieSecondaire>
+  <ZoomVisibleCircuits>20</ZoomVisibleCircuits>
+  <ZoomTexteVisibleCircuits>10</ZoomTexteVisibleCircuits>
+  <ZoomVisibleJoints>12</ZoomVisibleJoints>
+  <ZoomTexteVisibleJoints>7</ZoomTexteVisibleJoints>
+  <ZoomTexteVisibleJonctions>40</ZoomTexteVisibleJonctions>
+  <ZoomVisibleBalises>6</ZoomVisibleBalises>
+  <OrdreVoie>7</OrdreVoie>
+  <OrdreVoieSecondaire>6</OrdreVoieSecondaire>
+  <OrdreJonction>5</OrdreJonction>
+  <OrdreBranche>4</OrdreBranche>
+  <OrdreCircuit>3</OrdreCircuit>
+  <OrdreJoint>2</OrdreJoint>
+  <OrdreBalise>1</OrdreBalise>
+</cGraphique>

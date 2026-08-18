@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<HelpXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pages>
+    <HelpPage Nom="Chargement d'une ligne" Path="charger_ligne.html" />
+	<HelpPage Nom="Présentation de l'interface graphique" Path="interface_graphique.html" />
+    <HelpPage Nom="Déplacement dans une ligne" Path="deplacement.html" />
+	<HelpPage Nom="Visualisation de tournées" Path="tournees.html" />
+	<HelpPage Nom="Visualisation de modèles" Path="modeles.html" />
+  </Pages>
+</HelpXml>

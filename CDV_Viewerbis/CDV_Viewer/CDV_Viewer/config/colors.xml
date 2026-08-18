@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<cCouleurs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XmlVoie>#988F86</XmlVoie>
+  <XmlJonction>#988F86</XmlJonction>
+  <XmlAutreLigne>#988F86</XmlAutreLigne>
+  <XmlBranche>#6E267B</XmlBranche>
+  <XmlBaliseEnabled>Green</XmlBaliseEnabled>
+  <XmlBaliseDisabled>Red</XmlBaliseDisabled>
+  <XmlJoint>Black</XmlJoint>
+  <XmlCDV>#E05206</XmlCDV>
+  <XmlCDV1700>Red</XmlCDV1700>
+  <XmlCDV2000>#7AB800</XmlCDV2000>
+  <XmlCDV2300>#0088CE</XmlCDV2300>
+  <XmlCDV2600>#3E3D40</XmlCDV2600>
+  <XmlFormBack>#F0EDE8</XmlFormBack>
+  <XmlFormMenu>#F0EDE8</XmlFormMenu>
+  <XmlFormTopMenu>#EBE8E3</XmlFormTopMenu>
+  <XmlPanelToolStrip>#F0EDE8</XmlPanelToolStrip>
+  <XmlGraphTop>#F0EDE8</XmlGraphTop>
+  <XmlGraphBottom>White</XmlGraphBottom>
+  <XmlLegendeBack>#E6E6E6</XmlLegendeBack>
+  <XmlEchelle>Transparent</XmlEchelle>
+  <XmlGraphTitre>#988F86</XmlGraphTitre>
+  <XmlContextMenuTitre>#C7C2BA</XmlContextMenuTitre>
+  <XmlContextMenuItem>#E0DED8</XmlContextMenuItem>
+  <XmlPropertyWindow>#3E3D40</XmlPropertyWindow>
+  <XmlPropertyBoutonBack>#A0A0A0</XmlPropertyBoutonBack>
+  <XmlPropertyBoutonFore>#505050</XmlPropertyBoutonFore>
+  <XmlPropertyWindowText>#C7C2BA</XmlPropertyWindowText>
+</cCouleurs>
